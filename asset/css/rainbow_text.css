@@ -1,0 +1,16 @@
+@keyframes rainbow {
+    0% { color: violet; }
+    16% { color: indigo; }
+    32% { color: blue; }
+    48% { color: green; }
+    64% { color: yellow; }
+    80% { color: orange; }
+    100% { color: red; }
+}
+
+.rainbow-text {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    animation: rainbow 7s infinite;
+}
